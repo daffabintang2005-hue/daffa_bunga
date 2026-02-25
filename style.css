@@ -772,7 +772,7 @@ body {
 .flower__g-fr {
   position: absolute;
   bottom: -4vmin;
-  left: vmin;
+  left: 0vmin;
   transform-origin: bottom left;
   z-index: 10;
   animation: flower__g-fr-ans 2s linear infinite;

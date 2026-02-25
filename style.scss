@@ -169,13 +169,9 @@ body {
     position: relative;
     animation: blooming-flower 2s backwards;
 
-    $delay: 0.8;
-    $inc: 0.3;
-
     @for $i from 1 through 3 {
       &--#{$i} {
-        $delay: $delay + $inc;
-        animation-delay: #{$delay}s;
+        animation-delay: #{0.8 + (0.3 * $i)}s;
       }
     }
 
